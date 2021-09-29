@@ -90,7 +90,7 @@ void print_tree(const node_t *root)
 
     queue_push(&queue, root);
 
-    while(queue.q_len) {
+    while (queue.q_len) {
         node_t *cur = queue_front(&queue);
         printf("%d ", cur->ctx);
 
