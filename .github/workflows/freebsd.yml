@@ -7,5 +7,5 @@ jobs:
     runs-on: [self-hosted, freebsd]
 
     steps:
-      - name: Test Freebsd runner
-      - run: uname -srm
+      - name: Test FreeBSD runner
+        run: uname -srm
