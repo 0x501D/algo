@@ -1,0 +1,11 @@
+name: freebsd
+
+on: [push]
+
+jobs:
+    freebsd:
+        runs-on: [self-hosted, freebsd]
+
+    steps:
+        - uses: actions/checkout@v2
+        - run: uname -srm
