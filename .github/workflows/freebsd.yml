@@ -7,5 +7,5 @@ jobs:
     runs-on: [self-hosted, freebsd]
 
     steps:
-      - uses: actions/checkout@v1
+      - name: Test Freebsd runner
       - run: uname -srm
