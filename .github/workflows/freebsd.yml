@@ -3,9 +3,9 @@ name: freebsd
 on: [push]
 
 jobs:
-    freebsd:
-        runs-on: [self-hosted, freebsd]
+  freebsd:
+    runs-on: [self-hosted, freebsd]
 
     steps:
-        - uses: actions/checkout@master
-        - run: uname -srm
+      - uses: actions/checkout@master
+      - run: uname -srm
